@@ -26,12 +26,12 @@
 		72DD195A19A66AEE004F3C2F /* gangsta_bleeding_love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72DD195519A66AEE004F3C2F /* gangsta_bleeding_love.mp3 */; };
 		72DD195D19A66F3A004F3C2F /* bailando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72DD195C19A66F3A004F3C2F /* bailando.mp3 */; };
 		72DD195F19AE35DE004F3C2F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DD195E19AE35DE004F3C2F /* AVFoundation.framework */; };
-		72F15A8F19E71618008331A7 /* FISJukeboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F15A8A19E71618008331A7 /* FISJukeboxViewController.m */; };
-		72F15A9019E71618008331A7 /* FISPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F15A8C19E71618008331A7 /* FISPlaylist.m */; };
-		72F15A9119E71618008331A7 /* FISSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F15A8E19E71618008331A7 /* FISSong.m */; };
 		72F15A9319E71FF9008331A7 /* FISSongSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F15A9219E71FF9008331A7 /* FISSongSpec.m */; };
 		72F5811519E737430059B0B6 /* FISPlaylistSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F5811419E737430059B0B6 /* FISPlaylistSpec.m */; };
 		836095CA0BA7143B33DEE520 /* libPods-JukeboxViewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D243E15CEC3F26D0618321C7 /* libPods-JukeboxViewsTests.a */; };
+		BD4EEA8A1B2A068400A0CA64 /* FISSong.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEA891B2A068400A0CA64 /* FISSong.m */; };
+		BD4EEA8E1B2A06F400A0CA64 /* FISPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEA8D1B2A06F400A0CA64 /* FISPlaylist.m */; };
+		BD4EEA921B2A0AC100A0CA64 /* FISJukeboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEA911B2A0AC100A0CA64 /* FISJukeboxViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,14 +70,14 @@
 		72DD195519A66AEE004F3C2F /* gangsta_bleeding_love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gangsta_bleeding_love.mp3; sourceTree = "<group>"; };
 		72DD195C19A66F3A004F3C2F /* bailando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bailando.mp3; sourceTree = "<group>"; };
 		72DD195E19AE35DE004F3C2F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		72F15A8919E71618008331A7 /* FISJukeboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISJukeboxViewController.h; sourceTree = "<group>"; };
-		72F15A8A19E71618008331A7 /* FISJukeboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISJukeboxViewController.m; sourceTree = "<group>"; };
-		72F15A8B19E71618008331A7 /* FISPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPlaylist.h; sourceTree = "<group>"; };
-		72F15A8C19E71618008331A7 /* FISPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlaylist.m; sourceTree = "<group>"; };
-		72F15A8D19E71618008331A7 /* FISSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISSong.h; sourceTree = "<group>"; };
-		72F15A8E19E71618008331A7 /* FISSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISSong.m; sourceTree = "<group>"; };
 		72F15A9219E71FF9008331A7 /* FISSongSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISSongSpec.m; sourceTree = "<group>"; };
 		72F5811419E737430059B0B6 /* FISPlaylistSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlaylistSpec.m; sourceTree = "<group>"; };
+		BD4EEA881B2A068400A0CA64 /* FISSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISSong.h; path = JukeboxViews/Model/FISSong.h; sourceTree = "<group>"; };
+		BD4EEA891B2A068400A0CA64 /* FISSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISSong.m; path = JukeboxViews/Model/FISSong.m; sourceTree = "<group>"; };
+		BD4EEA8C1B2A06F400A0CA64 /* FISPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISPlaylist.h; path = JukeboxViews/Model/FISPlaylist.h; sourceTree = "<group>"; };
+		BD4EEA8D1B2A06F400A0CA64 /* FISPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISPlaylist.m; path = JukeboxViews/Model/FISPlaylist.m; sourceTree = "<group>"; };
+		BD4EEA901B2A0AC100A0CA64 /* FISJukeboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISJukeboxViewController.h; path = "JukeboxViews/View Controller/FISJukeboxViewController.h"; sourceTree = "<group>"; };
+		BD4EEA911B2A0AC100A0CA64 /* FISJukeboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISJukeboxViewController.m; path = "JukeboxViews/View Controller/FISJukeboxViewController.m"; sourceTree = "<group>"; };
 		D243E15CEC3F26D0618321C7 /* libPods-JukeboxViewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JukeboxViewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -110,6 +110,8 @@
 		72DD190719A66296004F3C2F = {
 			isa = PBXGroup;
 			children = (
+				BD4EEA8F1B2A09E200A0CA64 /* Controller */,
+				BD4EEA8B1B2A069200A0CA64 /* Model */,
 				72DD191919A66296004F3C2F /* JukeboxViews */,
 				72DD193819A66296004F3C2F /* JukeboxViewsTests */,
 				72DD191219A66296004F3C2F /* Frameworks */,
@@ -203,6 +205,26 @@
 				618C04B2151A5A26B1487B1B /* Pods-JukeboxViewsTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD4EEA8B1B2A069200A0CA64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEA881B2A068400A0CA64 /* FISSong.h */,
+				BD4EEA891B2A068400A0CA64 /* FISSong.m */,
+				BD4EEA8C1B2A06F400A0CA64 /* FISPlaylist.h */,
+				BD4EEA8D1B2A06F400A0CA64 /* FISPlaylist.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BD4EEA8F1B2A09E200A0CA64 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEA901B2A0AC100A0CA64 /* FISJukeboxViewController.h */,
+				BD4EEA911B2A0AC100A0CA64 /* FISJukeboxViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,8 +366,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4EEA8E1B2A06F400A0CA64 /* FISPlaylist.m in Sources */,
 				72DD192019A66296004F3C2F /* main.m in Sources */,
 				72DD192419A66296004F3C2F /* FISAppDelegate.m in Sources */,
+				BD4EEA8A1B2A068400A0CA64 /* FISSong.m in Sources */,
+				BD4EEA921B2A0AC100A0CA64 /* FISJukeboxViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
